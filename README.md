@@ -1,3 +1,7 @@
+<h2>Elemental SuperLite V0.2!<br>
+    -5 New Elments!<br>
+    -Achievements coming soon!<br></h2>
+
 # elemental-suprlite
 
 <h3>Elemental SuprLite is an Elemental game made for the TI-84+CE.<br>
@@ -19,6 +23,5 @@ If this is your first time playing, press 2. Otherwise (or if you're cheating), 
 You have 4 elements you can combine: <b>Air, Earth, Fire, and Water.</b><br>
 Type in the first element you'd like to combine using the Alpha Lock (2nd+Alpha) and press enter.<br>
 Type in the element you'd like to combine it with.<br></h4>
-<h2>BAM!</h3><h4> You just made an element.<br>
-There are achievements, you can unlock.<br></h4>
+<h2>BAM!</h3><h4> You just made an element.<br></h4>
 <h1>Have fun!</h1>
