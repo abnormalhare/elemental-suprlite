@@ -1,8 +1,10 @@
+1→E
 0→X
 0→Y
 ClrHome
 Lbl 2
 Output(1,1,"Have you ever played this game before?                                             1=Yes 2=No")
+Output(8,1,"Remember to type SCROLLF  to scroll forward and     SCROLLB to scroll back")
 getKey→A
 If A=93
 Goto 0
@@ -19,6 +21,8 @@ ClrHome
 Output(9,17,"Elemental")
 Output(10,18,"SuprLite")
 "OUTPUT ELEMENTS"
+If E=1
+Then
 Output(2,1,"AIR")
 Output(3,1,"EARTH")
 Output(4,1,"FIRE")
@@ -30,38 +34,50 @@ Output(7,1,"SUN")
 If L₂(3)=1
 Output(8,1,"STEAM")
 If L₂(4)=1
-Output(2,7,"LAVA")
+Output(2,8,"LAVA")
 If L₂(5)=1
-Output(3,7,"MUD")
+Output(3,8,"MUD")
 If L₂(6)=1
-Output(4,7,"ACID")
+Output(4,8,"ACID")
 If L₂(7)=1
-Output(5,7,"ALCOHOL")
+Output(5,8,"ALCOHOL")
 If L₂(8)=1
-Output(6,7,"VODKA")
+Output(6,8,"VODKA")
 If L₂(9)=1
-Output(7,7,"ROCK")
+Output(7,8,"ROCK")
 If L₂(10)=1
-Output(8,7,"VOLCANO")
+Output(8,8,"VOLCANO")
 If L₂(11)=1
-Output(2,15,"SAND")
+Output(2,16,"SAND")
 If L₂(12)=1
-Output(3,15,"CLOUD")
+Output(3,16,"CLOUD")
 If L₂(13)=1
-Output(4,15,"RAIN")
+Output(4,16,"RAIN")
 If L₂(14)=1
-Output(5,15,"GLASS")
+Output(5,16,"GLASS")
 If L₂(15)=1
-Output(6,15,"ICE")
+Output(6,16,"ICE")
 If L₂(16)=1
-Output(7,15,"SNOW")
+Output(7,16,"SNOW")
 If L₂(17)=1
-Output(8,15,"SUNGLASSES")
+Output(8,16,"SUNGLASSES")
+End
+If E=2
+Then
+If L₂(18)=1
+Output(2,1,"WIND")
+If L₂(19)=1
+Output(3,1,"STORM")
+End
 Output(10,1,Str1)
 
 "FIND IMPORTANT STRINGS"
 
 Input Str1
+If Str1="SCROLLF"
+E+1→E
+If Str1="SCROLLB"
+E-1→E
 If Str1="AIR"
 1→L₁(1)
 If Str1="EARTH"
@@ -104,6 +120,10 @@ If Str1="SNOW" and L₂(16)=1
 1→L₁(20)
 If Str1="SUNGLASSES" and L₂(17)=1
 1→L₁(21)
+If Str1="WIND" and L₂(18)=1
+1→L₁(22)
+If Str1="STORM" and L₂(19)=1
+1→L₁(23)
 Y+1→Y
 If Y=2
 Then
@@ -200,8 +220,18 @@ Then
 1→L₂(17)
 "Sunglasses!"→Str1
 End
+If (L₁(6)=1 or L₁(16)=1) and L₁(1)=1
+Then
+1→L₂(18)
+"Wind!"→Str1
+End
+If L₁(16)=1 and L₁(22)=1
+Then
+1→L₂(19)
+"Storm!"→Str1
+End
 
-"1=Air, 2=Earth, 3=Fire, 4=Water, 5=Dust, 6=Sun, 7=Steam, 8=Lava, 9=Mud, 10=Acid, 11=Alcohol, 12=Vodka, 13=Rock, 14=Volcano, 15=Sand, 16=Cloud, 17=Rain, 18=Glass, 19=Ice"
+"1=Air, 2=Earth, 3=Fire, 4=Water, 5=Dust, 6=Sun, 7=Steam, 8=Lava, 9=Mud, 10=Acid, 11=Alcohol, 12=Vodka, 13=Rock, 14=Volcano, 15=Sand, 16=Cloud, 17=Rain, 18=Glass, 19=Ice, 20=Snow, 21=Sunglasses, 22=Wind"
 
 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}→L₁
 Goto A
