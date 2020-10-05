@@ -1,5 +1,6 @@
-<h2>Elemental SuperLite V0.2!<br>
-    -5 New Elments!<br>
+<h2>Elemental SuperLite V0.3!<br>
+    -A lot more elements!<br>
+    -Scrolling Implemented<br>
     -Achievements coming soon!<br></h2>
 
 # elemental-suprlite
