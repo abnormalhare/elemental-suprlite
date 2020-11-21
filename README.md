@@ -24,7 +24,7 @@ b. If you use a real calculator:<br>
 <h4><b>How to play:</b>
 If this is your first time playing, press 2. Otherwise (or if you're cheating), press 1.<br>
 You have 4 elements you can combine: <b>Air, Earth, Fire, and Water.</b><br>
-Type in the first element you'd like to combine using the Alpha Lock (2nd+Alpha) and press enter.<br>
-Type in the element you'd like to combine it with.<br></h4>
+Select the first element you'd like to combine using the enter button.<br>
+Select the next element the same way.<br></h4>
 <h2>BAM!</h3><h4> You just made an element.<br></h4>
 <h1>Have fun!</h1>
