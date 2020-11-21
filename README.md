@@ -1,13 +1,15 @@
-<h2>Elemental SuperLite V0.3!<br>
-    -A lot more elements!<br>
-    -Scrolling Implemented<br>
+<h2>Elemental SuperLite V0.4u1!<br>
+    -Graph mode!<br>
+    -Unstable!<br>
     -Achievements coming soon!<br></h2>
+    0.4u1 means version 4, unstable version 1.<br>
+    The reason it's unstable is because past sand, the screen flickers and you can't make anything past Volcano.
 
 # elemental-suprlite
 
 <h3>Elemental SuprLite is an Elemental game made for the TI-84+CE.<br>
 Another Version of it is going to be for the TI-83+/TI-84+.<br>
-For more information about Elemental Games, click here: https://discord.gg/X9VyN42<br></h3>
+For more information about Elemental Games, or to join the Discord, click here: https://discord.gg/X9VyN42<br></h3>
 <h4><b>How to download:</b><br>
 1. Download ELEMLITE.8xp.<br>
 2. Once you have downloaded it, you have 2 options:<br>
