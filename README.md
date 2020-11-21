@@ -3,7 +3,7 @@
     -Unstable!<br>
     -Achievements coming soon!<br></h2>
     0.4u1 means version 4, unstable version 1.<br>
-    The reason it's unstable is because past sand, the screen flickers and you can't make anything past Volcano.
+    The reason it's unstable is because past sand, the screen flickers and you can't select anything past Volcano. (You can scroll to it, but you can't select it)
 
 # elemental-suprlite
 
