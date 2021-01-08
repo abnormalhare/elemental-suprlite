@@ -1,10 +1,8 @@
-<h2>Elemental SuperLite V0.4u1!<br>
-    -Graph mode!<br>
-    -Unstable!<br>
+<h2>Elemental SuperLite V0.1.0!<br>
+    -Colors!<br>
+    -Almost Complete!<br>
     -Achievements coming soon!<br></h2>
-    0.4u1 means version 4, unstable version 1.<br>
-    The reason it's unstable is because past sand, the screen flickers and you can't select anything past Volcano. (You can scroll to it, but you can't select it)
-
+    Almost complete. As you progress, it becomes more unfinished. But that's fine! 0.1.1 coming soon!
 # elemental-suprlite
 
 <h3>Elemental SuprLite is an Elemental game made for the TI-84+CE.<br>
