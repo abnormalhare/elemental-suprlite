@@ -1,8 +1,7 @@
-<h2>Elemental SuperLite V0.1.0!<br>
-    -Colors!<br>
-    -Almost Complete!<br>
-    -Achievements coming soon!<br></h2>
-    Almost complete. As you progress, it becomes more unfinished. But that's fine! 0.1.1 coming soon!
+<h2>Elemental SuperLite V0.0.9!<br>
+    -Yes, we went back a version.<br>
+    -Won't be completed unless yall love this game.<br></h2>
+    Game won't be complete until further notice. Hope yall liked this!
 # elemental-suprlite
 
 <h3>Elemental SuprLite is an Elemental game made for the TI-84+CE.<br>
