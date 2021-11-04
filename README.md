@@ -1,7 +1,7 @@
 <h2>Elemental SuperLite V0.9!<br>
     -Yes, we went up a lot of versions.<br>
     -Won't be completed unless yall love this game.<br></h2>
-    Game won't be complete until further notice. Hope yall liked this!
+    Game won't be complete until further notice. Hope yall liked this!<br>
 # elemental-suprlite
 
 <h3>Elemental SuprLite is an Elemental game made for the TI-84+CE.<br>
