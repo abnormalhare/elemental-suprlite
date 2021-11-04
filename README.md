@@ -1,5 +1,5 @@
-<h2>Elemental SuperLite V0.0.9!<br>
-    -Yes, we went back a version.<br>
+<h2>Elemental SuperLite V0.9!<br>
+    -Yes, we went up a lot of versions.<br>
     -Won't be completed unless yall love this game.<br></h2>
     Game won't be complete until further notice. Hope yall liked this!
 # elemental-suprlite
